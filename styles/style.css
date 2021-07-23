@@ -14,6 +14,7 @@
   min-height: 600px;
   max-height: 756px;
   display: flex;
+  position: relative;
   /* parameters for the header section */
 }
 
@@ -43,8 +44,12 @@
   z-index: 3;
 }
 
-.header__main-illustration {
-
+.header__main-illustartion {
+  width: 756px;
+  height: 608px;
+  position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
