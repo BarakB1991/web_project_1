@@ -9,10 +9,6 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-h1, h2, h3, p, span {
-  margin: 0;
-}
-
 .list {
   list-style: none;
   padding: 0;
