@@ -30,11 +30,15 @@
 }
 
 .logo_place_header {
+  background-image: url(../images/logo_place_header.png);
   width: 154px;
   height: 31px;
   position: absolute;
    top: 30px;
    left: 64px;
+   margin: 0;
+   padding: 0;
+   background-size: contain;
 }
 
 .header__title {
@@ -56,6 +60,7 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  margin: 0;
 }
 
 .header__main-illustartion {
@@ -102,6 +107,7 @@
   font-size: 18px;
   font-weight: normal;
   color: #2f80ed;
+  margin: 0;
 }
 
 .two-columns__main-text {
@@ -182,7 +188,7 @@
 }
 
 .feynman {
-  height: 790px;
+  min-height: 790px;
   position: relative;
   display: flex;
   flex-direction: column;
