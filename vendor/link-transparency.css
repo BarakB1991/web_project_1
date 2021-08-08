@@ -1,0 +1,9 @@
+.link-transparency {
+  transition: linear 0.7s opacity;
+  color: #2F80ed;
+  text-decoration: none;
+}
+
+.link-transparency:hover {
+  opacity: 0.25;
+}
