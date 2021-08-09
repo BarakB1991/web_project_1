@@ -13,7 +13,7 @@ The webpage contains different, efficient, methods of learning. it also contains
 
 
 Used BEM methodology for writing code, so to keep the code tidy and readable. this was used for HTML and CSS\
-In CSS, I used various different attributes to perform visual spectacles, such as: animation, keyframes, overflow and more.
+In CSS, I used various different attributes to perform visual spectacles, such as: animation, keyframes, overflow, pseudo classes and more.
 
 ## Credits
 Barak Barzilay via 
