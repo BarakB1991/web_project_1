@@ -1,10 +1,26 @@
 .object-rotation {
+  -webkit-animation: spin 20s infinite linear;
   animation: spin 20s infinite linear;
 }
 
-@keyframes spin { 
-  from { 
-      transform: rotate(-15deg); 
-  } to { 
-      transform: rotate(345deg); 
-  } }
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+  }
+  to {
+    -webkit-transform: rotate(345deg);
+    transform: rotate(345deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+  }
+  to {
+    -webkit-transform: rotate(345deg);
+    transform: rotate(345deg);
+  }
+}

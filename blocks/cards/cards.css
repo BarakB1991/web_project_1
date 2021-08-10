@@ -1,6 +1,11 @@
 .cards {
   width: 920px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
   flex-flow: row wrap;
   margin: 0 0;
   padding: 0 0;
@@ -8,6 +13,8 @@
 }
 
 .cards::after {
-  content: '';
+  content: "";
+  -webkit-box-flex: 1;
+  -ms-flex: auto;
   flex: auto;
 }

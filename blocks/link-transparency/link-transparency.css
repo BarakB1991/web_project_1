@@ -1,6 +1,8 @@
 .link-transparency {
+  -webkit-transition: linear 0.7s opacity;
+  -o-transition: linear 0.7s opacity;
   transition: linear 0.7s opacity;
-  color: #2F80ed;
+  color: #2f80ed;
   text-decoration: none;
 }
 
